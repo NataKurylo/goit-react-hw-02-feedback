@@ -3,7 +3,9 @@
 body {
   font-family: sans-serif;
   line-height: 1.5;
+  margin: 50px;
 }
+
 h1,
 h2,
 h3,
@@ -24,4 +26,13 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.container {
+  margin: 0 auto;
+  padding: 50px;
+  width: min-content;
+  height: 420px;
+  background-color: rgb(252, 254, 255);
+  border-radius: 10px;
+ box-shadow: 2px 3px 5px 3px rgb(204, 220, 244);
 }
